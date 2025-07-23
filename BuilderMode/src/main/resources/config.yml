@@ -1,0 +1,31 @@
+#This plugin Made by ItzAbood69 for support join here dsc.gg/ZoneMine
+# Locked armor (forced to golden)
+locked-armor:
+  helmet: GOLDEN_HELMET
+  boots: GOLDEN_BOOTS
+
+# Flight control
+allow-flight: true
+
+# Blocked items
+restrictions:
+  blocked-items:
+    - TNT
+    - LAVA_BUCKET
+    - FLINT_AND_STEEL
+    - END_CRYSTAL
+
+# Builder items
+builder-items:
+  - STONE
+  - OAK_PLANKS
+  - GLASS
+  - IRON_BARS
+
+# Messages
+messages:
+  enabled: "&aBuilder Mode activated! You can now build safely."
+  disabled: "&cBuilder Mode deactivated! Your inventory has been restored."
+  auto-disabled: "&eBuilder Mode automatically disabled after time limit."
+  fly-enabled: "&aFlight enabled!"
+  fly-disabled: "&cFlight disabled!"

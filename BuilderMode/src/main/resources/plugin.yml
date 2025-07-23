@@ -1,0 +1,22 @@
+name: BuilderMode
+version: 1.0
+main: org.ItzAbood69.BuilderMode
+api-version: "1.13"
+authors: [ItzAbood69]
+description: Secure building environment for creative mode servers
+
+commands:
+  buildermode:
+    description: Control Builder Mode settings
+    usage: /buildermode [on|off|check|list|blocked|reload|help]
+
+permissions:
+  buildermode.use:
+    description: Allows using Builder Mode
+    default: true
+  buildermode.check:
+    description: Allows checking other players' Builder Mode status
+    default: op
+  buildermode.admin:
+    description: Full access to Builder Mode commands
+    default: op
